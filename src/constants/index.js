@@ -1,28 +1,28 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  ceeri,
+  devrev,
+  onfinance,
+  providence,
+  pricely,
+  traveladvisor,
+  preview,
   threejs,
+  golang,
+  nextjs,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -46,28 +46,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -79,10 +67,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -105,66 +89,74 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Golang",
+    icon: golang,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Python",
+    icon: python,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Development Engineer",
+    company_name: "OnFinance.ai",
+    icon: onfinance,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2023 - October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built the landing pages for the company's website and its solutions and developed the backend for the product APIs.",
+      "ReactJS and TailwindCSS were the front-end frameworks and the backend tech stack was based on Golang.",
+      "IMPACT: Landing pages are the first POC between the customers and the company. APIs formed the basic communication between the front-end and the back-end. ",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Member of Technical Staff Intern",
+    company_name: "DevRev Cloud India Pvt. Ltd.",
+    icon: devrev,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked in the 'Product Led user Growth (PLuG)' widget team (first line of support between DevRev and its users).",
+      "Deployed three fully functional 'snap-ins' (extensions on DevRev framework) on top of PLuG: 'Book a demo' (Rego), 'Contact us form' and 'UserExperior' (both JavaScript based).",
+      "Used Golang to include user-type of customer (anonymous or identified) in the backend and data dump metric data of 'snap-kit actions' or UI actions on snap-ins for analytics.",
+      "Captured user browser data and online status from the widget using Websockets, ReactJS and Cypress for testing.",
+      "IMPACT: PLuG is first line of support, so my snap-ins came into direct contact with the customers. User type of customers helped validation of users and user browser data helped dynamic, customized user experience of PLuG widget."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Development Engineer Intern",
+    company_name: "Providence India",
+    icon: providence,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Part of the CRCA team and I worked on databases.",
+      "Normalization of databases using SQL Server Management Studio (SSMS) to reduce data redundancy and better structure.",
+      "Optimized stored procedures to bring down the time of execution from 30-40s to 3-5s (~10 times improvement).",
+      "Stored secrets in Azure Key Vault using C# and Dotnet.",
+      "IMPACT: Organized database structure and performed normalizations to improve loading time. Stored procedure optimization speeded up query execution time."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Machine Learning Intern",
+    company_name: "CSIR-CEERI Pilani",
+    icon: ceeri,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Part of a team to develop real-time solution to detecting diseases in fruits.",
+      "Used Generative Adversarial Networks (GANs) to augment datasets in preparation for model training.",
+      "Project: Design a system to detect diseases in fruits moving on a conveyer belt in real-time.",
     ],
   },
 ];
@@ -198,67 +190,88 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pricely",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web scraper built using , TypeScript and TailwindCSS that takes Amazon product URLs and displays the images, title, description and prices obtained by scraping the Amazon page. Track the updates with emails using cron jobs.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "TypeScript",
+        color: "orange-text-gradient"
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pricely,
+    source_code_link: "https://github.com/daredevil0905/pricely",
   },
   {
-    name: "Job IT",
+    name: "Travel Advisor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Google Maps companion created using ReactJS, MaterialUI and RapidAPI displays a map with restaurants and attractions nearby. Filter functionality based on ratings available. Automatic updates to list based on map location",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MaterialUI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: traveladvisor,
+    source_code_link: "https://github.com/daredevil0905/travel-advisor",
   },
   {
-    name: "Trip Guide",
+    name: "Chess Membership",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Based on a database, automate FIDE/AICF ID (unique IDs) verification ( active/inactive ) by making an API call to the FIDE website using Golang. Generate the MCA ID by using the unique FIDE/AICF ID as the query parameter. Save human verification efforts.",
     tags: [
       {
-        name: "nextjs",
+        name: "Golang",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Excelize",
+        color: "green-text-gradient",
+      }
+    ],
+    image: preview,
+    source_code_link: "https://github.com/daredevil0905/chess-membership-status",
+  },
+  {
+    name: "Chess Delay",
+    description:
+      "Implement delay in live chess broadcasting using Python. Use tempfile and ftplib libraries to upload the chess moves file to the live FTP server after the required delay as input by user. Automate the process eliminating human intervention.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ftplib",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+        name: "tempfile",
+        color: "pink-text-gradient"
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: preview,
+    source_code_link: "https://github.com/daredevil0905/chess-delay",
   },
 ];
 

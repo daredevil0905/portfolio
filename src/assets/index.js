@@ -20,15 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import golang from "./tech/golang.png";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.jpeg"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ceeri from "./company/ceeri.png"
+import devrev from "./company/devrev.png"
+import onfinance from "./company/onfinance.jpeg"
+import providence from "./company/providence.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pricely from "./pricely.png"
+import traveladvisor from "./travel-advisor.png"
+import preview from "./preview.png"
 
 export {
   logo,
@@ -52,11 +55,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  golang,
+  nextjs,
+  python,
+  ceeri,
+  devrev,
+  onfinance,
+  providence,
+  pricely,
+  traveladvisor,
+  preview
 };
