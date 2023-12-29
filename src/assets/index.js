@@ -32,6 +32,9 @@ import providence from "./company/providence.png"
 import pricely from "./pricely.png"
 import traveladvisor from "./travel-advisor.png"
 import preview from "./preview.png"
+import chatlogsPreview from "./chatlogs-preview.png"
+
+import testimonial1 from "./people/testimonial1.jpg"
 
 export {
   logo,
@@ -64,5 +67,7 @@ export {
   providence,
   pricely,
   traveladvisor,
-  preview
+  preview,
+  chatlogsPreview,
+  testimonial1
 };

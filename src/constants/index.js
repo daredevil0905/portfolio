@@ -19,10 +19,12 @@ import {
   pricely,
   traveladvisor,
   preview,
+  chatlogsPreview,
   threejs,
   golang,
   nextjs,
   python,
+  testimonial1
 } from "../assets";
 
 export const navLinks = [
@@ -164,28 +166,12 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      "It was amazing how Sanchet managed to build 4 fully functional websites within 2 months including our main landing page.",
+    name: "Anuj Srivastava",
+    designation: "Co-Founder",
+    company: "OnFinance.ai",
+    image: testimonial1,
+  }
 ];
 
 const projects = [
@@ -273,6 +259,26 @@ const projects = [
     image: preview,
     source_code_link: "https://github.com/daredevil0905/chess-delay",
   },
+  {
+    name: "Chatlogs Server",
+    description: "Developed a lightweight chat log server using Java and Spring Boot, employing MongoDB for message storage. Implemented GET, POST, and DELETE requests, resulting in an efficient solution for user-based communication.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: chatlogsPreview,
+    source_code_link: "https://github.com/daredevil0905/chatlogs"
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
